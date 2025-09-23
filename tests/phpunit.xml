@@ -15,8 +15,8 @@
          displayDetailsOnTestsThatTriggerWarnings="true"
          displayDetailsOnPhpunitDeprecations="true">
     <testsuites>
-        <testsuite name="Flare">
-            <directory>../src/Lunr/Flare/Tests/</directory>
+        <testsuite name="Rules">
+            <directory>../src/Lunr/Flare/Rule/Validate/Tests/</directory>
         </testsuite>
     </testsuites>
     <coverage>
@@ -33,7 +33,7 @@
             <directory>../src/Lunr/</directory>
         </include>
         <exclude>
-            <directory>../src/Lunr/Flare/Tests/</directory>
+            <directory>../src/Lunr/Flare/Rule/Validate/Tests/</directory>
         </exclude>
     </source>
 </phpunit>
