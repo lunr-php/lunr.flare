@@ -7,5 +7,20 @@
             "prefix": "Lunr\\Halo",
             "search-path": "/src/Lunr/Halo/"
         }
+    },
+    "Lunr.Corona": {
+        "url": "https://github.com/lunr-php/lunr.corona.git",
+        "version": "0.13.0",
+        "revision": "master",
+        "psr4": [
+            {
+                "prefix": "Lunr\\Corona",
+                "search-path": "/src/Lunr/Corona/"
+            },
+            {
+                "prefix": "Lunr\\Shadow",
+                "search-path": "/src/Lunr/Shadow/"
+            }
+        ]
     }
 }
